@@ -24,7 +24,7 @@ class Pajak {
     //method untuk mendapatkan nilai pajak yang akan di print
     public function getPajak()
     {
-        return " $this->jenis_pajak,
+        return " {k} $this->jenis_pajak,
                         $this->kode_pajak,
                         $this->nilai_pajak,
                         $this->nama_pegawai,
